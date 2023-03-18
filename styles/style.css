@@ -1,0 +1,82 @@
+html {
+    background-color: lavender;
+}
+
+h1 {
+    font-size: 80px;
+    color: purple;
+    text-shadow: 3px 3px 0px indigo;
+
+    text-align: center;
+    margin: 30px;
+    font-family: 'Allerta', sans-serif;
+}
+
+p {
+    font-size: 20px;
+}
+
+img {
+    font-family: 'Nunito Sans', sans-serif;
+
+    transition: 0.1s ease;
+    position: fixed;
+    width: 256px;
+    height: auto;
+    right: 20px;
+    bottom: 20px;
+}
+
+img:hover {
+    transition: 1s ease;
+    opacity: 0;
+}
+
+.tab {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 5px;
+}
+
+.tab button {
+    color: lavender;
+    width: auto;
+    background-color: purple;
+    border: none;
+    padding: 10px calc(25% - 20px);
+    margin: 0 5px;
+}
+
+.tab button:hover {
+    background-color: magenta;
+}
+
+.normal {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#line {
+    height: 2px;
+    border-width: 0;
+    background-color: purple;
+}
+
+.emoji {
+    color: greenyellow;
+    /* font-size: 20px; */
+
+    vertical-align: middle;
+    width: max-content;
+    margin: 10px;
+    border: 2px solid greenyellow;
+    padding: 20px;
+    background-color: green;
+    font-family: 'Noto Color Emoji', 'Nunito Sans', sans-serif; 
+}
+
+.emoji #turtle  {
+    padding-right: 10px;
+    vertical-align: middle;
+    font-size: 100px;
+}
